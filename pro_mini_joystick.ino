@@ -6,9 +6,6 @@ Joystick_ Joystick(JOYSTICK_DEFAULT_REPORT_ID,
   true, true, false, false, false, false,
   false, false, false, false, false);
   
-// Set to true to test "Auto Send" mode or false to test "Manual Send" mode.
-const bool testAutoSendMode = true;
-//const bool testAutoSendMode = false;
 
 int xin = A0;
 int yin = A1;
